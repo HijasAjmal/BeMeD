@@ -29,7 +29,7 @@ $primary: rgb(182,157,230);
   position:absolute;
   top:0;
   bottom:0;
-  height: 813px;
+  height: auto;
   left:0;
   width:60px;
   overflow:hidden;
@@ -134,17 +134,20 @@ nav ul,nav li {
 
 .content-layout{
   width: 100%;
-  height: 813px;
+  height: auto;
+  bottom: 0;
+  top: 0;
+  position: absolute;
   background-color: gray;
-  margin-top: 52px;
+  margin-top: 37px;
   float: left;
 }
 .content-space{
   width: 96%;
   height: 803px;
   background-color: transparent;
-  margin-left: 68px;
-  margin-top: 3px;
+  margin-left: 75px;
+  margin-top: 93px;
 }
 .content-div1{
   width: 32%;

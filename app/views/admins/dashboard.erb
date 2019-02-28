@@ -86,12 +86,14 @@
 
             <ul class="logout">
                 <li>
-                   <a href="#">
+                  <%= link_to destroy_user_session_path, method: :delete do %>
+                   <!-- <a href="#"> -->
                          <i class="fa fa-power-off fa-2x"></i>
                         <span class="nav-text">
                             Logout
                         </span>
-                    </a>
+                    <!-- </a> -->
+                  <% end %>
                 </li>
             </ul>
         </nav>
